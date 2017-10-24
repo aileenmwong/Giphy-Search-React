@@ -24,6 +24,7 @@ class AddGifForm extends Component {
           onChange={this.props.handleInputAmountValueChange}
         /><br/>
         <button id="submit">Get A Gif!</button>
+        <Weather />
         </form>
       </div>
       );
